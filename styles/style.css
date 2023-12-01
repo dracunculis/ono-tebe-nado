@@ -80,7 +80,6 @@
   font-style: normal;
   line-height: 115%;
   color: #fff;
-  display: flex;
   flex-direction: column;
   text-transform: uppercase;
   letter-spacing: 30px;
@@ -203,7 +202,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 21px 90px;
+  margin: 30px 90px;
 }
 
 /*about*/
