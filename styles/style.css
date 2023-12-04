@@ -10,7 +10,9 @@
   line-height: 24.3px;
 }
 
-
+a {
+  text-underline-position: under;
+}
 
 /*header*/
 
@@ -48,6 +50,7 @@
 
 .header__links-list-item_no-bullit {
   list-style: none;
+  text-decoration: none;
 }
 
 .header__logo-image {
