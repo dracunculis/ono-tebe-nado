@@ -10,9 +10,7 @@
   line-height: 24.3px;
 }
 
-a {
-  text-underline-position: under;
-}
+
 
 /*header*/
 
@@ -191,6 +189,9 @@ a {
   flex-direction: column;
   justify-content: space-between;
   min-height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -213,24 +214,15 @@ a {
 
 .card_type_film {
   background: url('../images/card-lot-01.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background: url('../images/card-lot-02.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+ }
 
 .card_type_picture {
   background: url('../images/card-lot-03.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+  }
 
 .show__more__link {
   display: inline-block;
